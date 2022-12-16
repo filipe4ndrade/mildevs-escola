@@ -17,7 +17,7 @@ import jakarta.persistence.OneToOne;
 public class Turma {
 
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "cod_turma")
 	private int codTurma;
 	

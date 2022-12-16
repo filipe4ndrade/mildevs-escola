@@ -13,7 +13,7 @@ import jakarta.persistence.OneToOne;
 public class Sala {
 	
 	@Id
-	//@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "nro_sala", nullable = false)
 	private int nroSala;
 	
