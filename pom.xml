@@ -3,4 +3,26 @@
   <groupId>br.com.mildevs</groupId>
   <artifactId>mildevs-escola</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core-jakarta</artifactId>
+			<version>5.5.7.Final</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.5.1</version>
+		</dependency>
+	</dependencies>
+
+	<developers>
+		<developer>
+			<email>filipeandrade000@gmail.com</email>
+			<name>Jose Filipe Silva de Andrade</name>
+		</developer>
+	</developers>
+	
 </project>
